@@ -4,6 +4,7 @@ __pycache__/
 .env
 .env.*
 node_modules/
+.tools/
 
 # Original research exports and attachments stay local.
 /research/

@@ -1,0 +1,8 @@
+{
+  "name": "s1-smartwatch",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "zeus": "node tools/zeus.cjs"
+  }
+}

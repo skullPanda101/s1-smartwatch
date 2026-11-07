@@ -18,6 +18,8 @@ The phone Side Service, not the watch itself, makes the network request. Watch W
 
 ## Current scaffold
 
+Stage 0 is in progress: GTR 4 OS 3.5, Android HyperOS and Zepp developer Scan are confirmed by the operator. Official CLI 1.9.3 startup is resolved using a local-filesystem installation and explicit bundled alias registration (`tools/README.md`); help/version pass, starter build is still pending. Exact regional target and version-label clarification remain pending. See `docs/HANDOFF.md` for verified versions, blockers and next steps. Update that handoff after every implementation phase.
+
 - Implemented: dependency-free Mac `/ping` probe; loopback default; integration tests.
 - Pending: official Zepp project generation, watch UI, phone messaging/fetch, hardware testing.
 - Not implemented: audio, STT, agent calls, remote networking, voice playback.
