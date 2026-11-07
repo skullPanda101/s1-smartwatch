@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+node_modules/
+
+# Original research exports and attachments stay local.
+/research/
+
+# Private credentials and local tooling state.
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+.ruff_cache/
+.pytest_cache/
+.venv/
+
+# Generated watch output and private experiment recordings.
+/watch/dist/
+/watch/build/
+/recordings/
+*.opus
+*.ogg
+*.wav
+*.mp3

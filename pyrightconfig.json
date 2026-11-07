@@ -1,0 +1,4 @@
+{
+  "include": ["mac", "tests"],
+  "executionEnvironments": [{ "root": "." }]
+}
